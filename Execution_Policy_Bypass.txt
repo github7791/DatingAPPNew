@@ -1,0 +1,5 @@
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+-- --
+CORS:
+https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-3.1
+--
