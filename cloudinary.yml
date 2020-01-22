@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dei3v1ll9
+  api_key: '474244937871665'
+  api_secret: TEDK4ayVGUupSRlvqS4dn1uBpwg
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: dei3v1ll9
+  api_key: '474244937871665'
+  api_secret: TEDK4ayVGUupSRlvqS4dn1uBpwg
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: dei3v1ll9
+  api_key: '474244937871665'
+  api_secret: TEDK4ayVGUupSRlvqS4dn1uBpwg
+  enhance_image_tag: true
+  static_file_support: false

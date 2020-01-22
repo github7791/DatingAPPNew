@@ -3,3 +3,36 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 CORS:
 https://docs.microsoft.com/en-us/aspnet/core/security/cors?view=aspnetcore-3.1
 --
+
+CLOUDINARY:
+harish.kc@hotmail.com/hkc@2020C
+dei3v1ll9
+474244937871665
+TEDK4ayVGUupSRlvqS4dn1uBpwg
+CLOUDINARY_URL=cloudinary://474244937871665:TEDK4ayVGUupSRlvqS4dn1uBpwg@dei3v1ll9
+
+Base delivery URL:	http://res.cloudinary.com/dei3v1ll9 ?
+Secure delivery URL:	https://res.cloudinary.com/dei3v1ll9 ?
+API Base URL:	https://api.cloudinary.com/v1_1/dei3v1ll9 ?
+
+API Key: 474244937871665
+API Secret: 474244937871665
+
+[Generate New Pair]
+--
+
+Cloudinary ex:
+"kyvfptaullu2sx1eqta9"
+{https://res.cloudinary.com/dei3v1ll9/image/upload/v1579250183/kyvfptaullu2sx1eqta9.jpg}
+--
+{
+    "id": 13,
+    "url": "http://res.cloudinary.com/dei3v1ll9/image/upload/v1579251920/kbqlhqdbnkcdmztyplns.jpg",
+    "description": null,
+    "dateAdded": "2020-01-17T14:35:18.6821771+05:30",
+    "isMain": false,
+    "publicId": "kbqlhqdbnkcdmztyplns"
+}
+--
+API Location (from Header): http://localhost:5000/api/users/1/photos/13
+--
