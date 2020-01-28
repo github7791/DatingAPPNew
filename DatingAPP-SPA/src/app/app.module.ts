@@ -9,6 +9,7 @@ import { appRoutes } from './toutes';
 import { JwtModule } from '@auth0/angular-jwt';
 import { NgxGalleryModule } from 'ngx-gallery';
 import { FileUploadModule } from 'ng2-file-upload';
+import {TimeAgoPipe} from 'time-ago-pipe';
 
 import { AppComponent } from './app.component';
 import { HttpClient } from 'selenium-webdriver/http';
@@ -55,6 +56,7 @@ export class CustomHammerConfig extends HammerGestureConfig  {
       MembersDetailComponent,
       MemberEditComponent,
       PhotoEditorComponent,
+      TimeAgoPipe
    ],
    imports: [
       BrowserModule,
