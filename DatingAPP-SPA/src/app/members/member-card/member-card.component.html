@@ -4,7 +4,8 @@
     <ul class="list-inline member-icons animate text-center">
       <li class="list-inline-item"><button><div class="btn btn-primary" 
           [routerLink]="['/members/', user.id]"><i class="fa fa-user"></i></div></button></li>
-      <li class="list-inline-item"><button><div class="btn btn-primary"><i class="fa fa-heart"></i></div></button></li>
+      <li class="list-inline-item"><button><div class="btn btn-primary" (click)="sendLike(user.id)">
+          <i class="fa fa-heart"></i></div></button></li>
       <li class="list-inline-item"><button><div class="btn btn-primary"><i class="fa fa-envelope"></i></div></button></li>
     </ul>
   </div>
