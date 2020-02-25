@@ -65,6 +65,13 @@ namespace DatingApp.API.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
+
+                        //.Annotation("SqlServer:ValueGenerationStrategy",
+                        //SQLServerValueGenerationStrategy.IdentityColumn)
+
+                        //.Annotation("MySql:ValueGenerationStrategy",
+                        //SQLServerValueGenerationStrategy.IdentityColumn)
+
                         .Annotation("Sqlite:Autoincrement", true),
                     Url = table.Column<string>(nullable: true),
                     Description = table.Column<string>(nullable: true),
